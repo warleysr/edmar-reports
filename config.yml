@@ -1,0 +1,48 @@
+MySQL:
+  host: localhost
+  port: 3306
+  user: root
+  pass: ''
+  dbname: testes
+
+TamanhoGUI: 27
+TituloGUI: 'Reports para resolver'
+
+GUIOpcoes:
+  Titulo: 'Opcoes do report'
+  Teleportar: '&7Teleportar para o jogador'
+  Inocentar: '&aInocentar jogador'
+  Banir: '&cBanir jogador'
+
+ComandoBanir: 'ban @player'
+
+Cabecas:
+  nome: '&b@player'
+  lore:
+  - '&7Motivo: &f@motivo'
+  - '&7Data: &f@data'
+  - '&7Reportado por: &f@reportador'
+  - '&7Caso &f#@id'
+
+# Motivos para reportar
+motivos:
+- hack
+- ofensa
+- anti jogo
+
+# Mensagens
+sem-permissao: '&cVoce nao possui permissao.'
+uso-correto: '&cUse: /report <Jogador>'
+jogador-invalido: '&cEste jogador nao esta online.'
+report-cabecalho: '&9========= &eReportar @player &9========'
+report-motivo: '&b@motivo'
+report-hover: '&7Clique para reportar &f@player &7por &f@motivo'
+report-rodape: '&9========================================'
+reportar-novamente: '&cUse o comando /report para reportar novamente.'
+sucesso-report: '&f@player &afoi reportado com sucesso.'
+falha-report: '&cFalha interna ao reportar.'
+atualizando: '&cOs reports estao sendo atualizados. Aguarde.'
+necessario-atualizar: '&cO GUI foi fechado porque precisa ser atualizado.'
+nenhum-report: '&cNenhum report encontrado.'
+inocentado: '&7O jogador &f@player &7foi &aINOCENTADO &7e o report excluido.'
+banido: '&7O jogador &f@player &7foi &cBANIDO &7e o report excluido.'

@@ -1,0 +1,11 @@
+name: EdmarReports
+version: 1.0.0
+main: edmarreports.EdmarReports
+author: zDubsCrazy
+commands:
+  report:
+    description: Reporta um jogador.
+  dreport:
+    description: Reporta diretamente um jogador.
+  reports:
+    description: Ve a lista de reports.
